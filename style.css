@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background: rgb(255,194,239);
+    background: linear-gradient(195deg, rgba(255,194,239,1) 26%, rgba(240,165,219,0.8911939775910365) 87%);
+display: flex; 
+justify-content: center;
+align-items: center;
+} 
+.card {
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+text-align: center; 
+border-radius: 10px;
+}
+.card-header, .card-footer {
+    background-color: rgb(118, 182, 255);
+    padding: 20px;
+   border-radius: 20px;
+} 
+ 
+button{
+    background-color: beige;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+}
